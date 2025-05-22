@@ -1,0 +1,105 @@
+{
+    "case_id": "CASE-0001",
+    "title": "Midnight Home Invasion - Surburban Area",
+    "date": "2025-04-06",
+    "location": {
+        "city": "Fairfield",
+        "state": "CT",
+        "neighborhood": "Green Hollow",
+        "geo_coordinates": {
+            "lat": 41.1408,
+            "lon": -73.2613
+        }
+    },
+    "status": "open",
+    "assigned_agency": "Fairfield_PD",
+    "suspects": [
+        {
+            "suspect_id": "SUS-001",
+            "name": "John Doe",
+            "aliases": [
+                "Ghost",
+                "JD"
+            ],
+            "dob": "1990-11-22",
+            "digital_trace": {
+                "known_ips": [
+                    "192.168.0.1"
+                ],
+                "online_handles": [
+                    "@RealGhost90"
+                ],
+                "device_ids": [
+                    "iPhone12-A12XYZ"
+                ]
+            },
+            "prior_offenses": [
+                {
+                    "charge": "Burglary",
+                    "date": "2023-05-10",
+                    "location": "Norwalk, CT"
+                },
+                {
+                    "charge": "Trespassing",
+                    "date": "2022-08-14",
+                    "location": "Bridgeport, CT"
+                }
+            ],
+            "MO": {
+                "entry_method": [
+                    "Back door forced",
+                    "Window broken"
+                ],
+                "time_of_day": [
+                    "Midnight - 3 AM"
+                ],
+                "items_stolen": [
+                    "Electronics",
+                    "Cash"
+                ],
+                "signature_behavior": [
+                    "Draws a symbol on mirror",
+                    "Cleans specific items"
+                ],
+                "victime_type": [
+                    "Middle-aged couples",
+                    "Surburban homes"
+                ]
+            }
+        }
+    ],
+    "victims": [
+        {
+            "victim_id": "VIC-001",
+            "name": "N/A",
+            "age": 43,
+            "gender": "Female",
+            "injured": false,
+            "psychological_impact": "Reported insomnia and anxiety post-incident"
+        }
+    ],
+    "evidence": {
+        "dna": [
+            "Hair sample from pillow",
+            "Blood on window glass"
+        ],
+        "fingerprints": [
+            "Match to SUS-001 on doorknob"
+        ],
+        "cctv": {
+            "found": true,
+            "summary": "Blurry figure in hoodie, 2:13 AM, backyard cam",
+            "video_ids": [
+                "VID-3021"
+            ]
+        },
+        "dIgital": {
+            "wifi_traces": [
+                "Unregistered device pinged victim's router "
+            ],
+            "geo_tracking": [
+                "Suspect's phone in area (tower ping)"
+            ]
+        }
+    }
+}

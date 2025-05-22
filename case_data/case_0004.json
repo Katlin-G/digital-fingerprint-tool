@@ -1,0 +1,25 @@
+{
+    "case_id": "0004",
+    "title": "Suspicious Fore at Storage Facility",
+    "date": "2025-04-15",
+    "location": "Riversdie Storage, Sacramento, CA",
+    "description": "A fore broke out in a privately rented storage unit. No injuires reported, but contents were destroyed.",
+    "modi_operandi": [
+        "Accelerant use",
+        "Night entry",
+        "Remote ignition"
+    ],
+    "victims": [
+        "Storage renter - James Hoooway"
+    ],
+    "suspects": [
+        "Unknown individual spotted on nearby camera footage"
+    ],
+    "status": "open",
+    "evidence": [
+        "Gasoline traces",
+        "Surveillance footage",
+        "Burn pattern"
+    ],
+    "notes": "Fire inspector believes fire was deliberate. May be connected to insurance fraud."
+}
